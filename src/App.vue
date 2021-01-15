@@ -4,6 +4,7 @@
         mpType: 'app',
         onLaunch() {
             console.log('App Launch')
+            console.log((this as any).$u.config.v);
         },
         onShow() {
             console.log('App Show')
@@ -14,6 +15,7 @@
     });
 </script>
 
-<style>
+<style lang="scss">
     /*每个页面公共css */
+    @import "uview-ui/index.scss";
 </style>
