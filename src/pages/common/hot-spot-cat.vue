@@ -1,5 +1,5 @@
 <template>
-  <view>搜索</view>
+  <view>公共组件</view>
 </template>
 
 <script>
@@ -9,12 +9,17 @@ export default {
 
     }
   },
+  props:{
+    name:{
+      type: String,
+      default: 'name'
+    }
+  },
   methods:{
 
   }
 }
 </script>
-
 <style lang="less" scoped>
 
 </style>
